@@ -1,0 +1,42 @@
+body {
+  background: url(hero.jpeg) no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  min-height: 20%;
+  max-width: 40%;
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  border-radius: 20px;
+  filter: drop-shadow(9px 8px 20px black);
+}
+
+
+button{
+    background-color: rgb(0, 217, 255);
+    font-size: 1rem;
+    border: none;
+    padding:  5px 9px;
+    letter-spacing: 0.2rem;
+    border-radius: 10px;
+    color: white;
+}
+ .toggle-container{
+  visibility: hidden;
+    z-index: -10;
+     min-height: 20%;
+    min-width: 40%;
+    text-align: center;
+    background-color: white;
+    padding-top : 50px;
+border-radius: 20px;
+display: grid;
+place-items: center ;
+
+} 
+
